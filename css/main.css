@@ -1,0 +1,46 @@
+html {
+	box-sizing: border-box;
+}
+
+*, ::before, ::after {
+	box-sizing: inherit;
+}
+
+img {
+	width:100%;
+}
+
+body {
+	margin: 0em;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Patua One', cursive;
+}
+
+header {
+	background-color: #2b221a;
+	color: white;
+}
+
+.info {
+	background-color: #af6456;
+}
+
+.food {
+	background-color: #c9ac62;
+}
+
+.coffee {
+	background-color: #8e735a;
+}
+
+.stuff {
+	background-color: #4c8462;
+}
+
+footer {
+	background-color: #2b221a;
+	color: white;
+}
