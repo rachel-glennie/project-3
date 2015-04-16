@@ -23,6 +23,7 @@ h1, h2, h3 {
 h1 {
 	text-align: center;
 	font-size: 1.85em;
+	color: white;
 }
 
 header {
@@ -30,9 +31,18 @@ header {
 	color: white;
 }
 
+ol {
+	margin: 0em;
+	padding: 0em;
+}
+
 
 .billboard {
-	margin: 9em 1em 1em 1em;
+	padding: 6em 0em 1em 0em;
+	background-image: url("../images/billboard.jpg");
+	background-size: 100% auto;
+	background-position: center;
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
 }
 
 h2 {
@@ -44,6 +54,10 @@ p {
 	margin: 0em;
 }
 
+figcap {
+	font-size: 1em;
+	width: 90%;
+}
 
 .info {
 	background-color: #af6456;
@@ -53,19 +67,19 @@ p {
 
 .food {
 	background-color: #c9ac62;
-	padding: 1em 0.5em;
+	padding: 1em 0.5em 14em 0.5em;
 	text-align: center;
 }
 
 .drinks {
 	background-color: #8e735a;
-	padding: 1em 0.5em;
+	padding: 1em 0.5em 14em 0.5em;
 	text-align: center;
 }
 
 .stuff {
 	background-color: #4c8462;
-	padding: 1em 0.5em;
+	padding: 1em 0.5em 14em 0.5em;
 	text-align: center;
 }
 
@@ -92,4 +106,5 @@ p {
 footer {
 	background-color: #2b221a;
 	color: white;
+	padding: 1em;
 }
