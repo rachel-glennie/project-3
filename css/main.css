@@ -17,6 +17,12 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Patua One', cursive;
+	margin: 0em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.85em;
 }
 
 header {
@@ -24,20 +30,43 @@ header {
 	color: white;
 }
 
+
+.billboard {
+	margin: 9em 1em 1em 1em;
+}
+
+h2 {
+	margin:0em;
+	text-align: center;
+}
+
+p {
+	margin: 0em;
+}
+
+
 .info {
 	background-color: #af6456;
+	padding: 1em 0.5em;
+	text-align: center;
 }
 
 .food {
 	background-color: #c9ac62;
+	padding: 1em 0.5em;
+	text-align: center;
 }
 
 .coffee {
 	background-color: #8e735a;
+	padding: 1em 0.5em;
+	text-align: center;
 }
 
 .stuff {
 	background-color: #4c8462;
+	padding: 1em 0.5em;
+	text-align: center;
 }
 
 footer {
