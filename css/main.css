@@ -69,6 +69,26 @@ p {
 	text-align: center;
 }
 
+.left {
+	width: 50%;
+	float: left;
+	padding: 1em 0em;
+}
+
+.left img {
+	width: 90%;
+}
+
+.right {
+	width: 50%;
+	float: right;
+	padding: 1em 0em;
+}
+
+.right img {
+	width: 90%;
+}
+
 footer {
 	background-color: #2b221a;
 	color: white;
