@@ -24,19 +24,24 @@ h1 {
 	text-align: center;
 	font-size: 1.85em;
 	color: white;
+	padding: 1em 0em 1em 0em;
 
 }
 
 header {
 	background-color: #2b221a;
+	background-image: url(".../images/logo.svg");
+	background-position: center;
+	background-size: 100% auto;
 	color: white;
 }
 
 ol li{
 	display: block;
 	float: left;
-	padding: 1em 0em;
+	background-color: #2b221a;
 	width: 33.33333333%;
+	padding: 0.5em 0em;
 }
 
 ol a {
@@ -50,8 +55,6 @@ ol {
 	padding: 0em;
 	width: 100%;
 	margin: 0em;
-	background-color: #2b221a;
-	position: fixed;
 }
 
 ol li:hover {
@@ -59,10 +62,11 @@ ol li:hover {
 }
 
 .billboard {
-	padding: 6em 0em 1em 0em;
+	padding: 30% 0em 1em 0em;
 	background-image: url("../images/billboard.jpg");
 	background-size: 100% auto;
-	background-position: center;
+	background-position: fixed;
+	color: white;
 }
 
 h2 {
@@ -74,10 +78,11 @@ p {
 	margin: 0em;
 }
 
-figcap {
+figcaption {
 	font-size: 0.75em;
 	width: 90%;
 	font-style: italic;
+	text-align: center;
 }
 
 .info {
@@ -88,20 +93,25 @@ figcap {
 
 .food {
 	background-color: #c9ac62;
-	padding: 1em 0.5em 13em 0.5em;
+	padding: 1em 0.5em 1em 0.25em;
 	text-align: center;
 }
 
 .drinks {
 	background-color: #8e735a;
-	padding: 1em 0.5em 13em 0.5em;
+	padding: 1em 0.5em;
 	text-align: center;
 }
 
 .stuff {
 	background-color: #4c8462;
-	padding: 1em 0.5em 13em 0.5em;
+	padding: 1em 0.5em;
 	text-align: center;
+}
+
+figure {
+	margin: 0em;
+	display: inline-block;
 }
 
 .left {
@@ -112,21 +122,35 @@ figcap {
 
 .left img {
 	width: 90%;
+	margin: 0em;
+	display: inline-block;
 
 }
 
 .right {
 	width: 50%;
-	float: right;
 	padding: 1em 0em;
 }
 
 .right img {
 	width: 90%;
+	margin: 0em;
+	display: inline-block;
 }
+
 
 footer {
 	background-color: #2b221a;
 	color: white;
-	padding: 1em;
+	padding: 1em 0.5em 10em 0.5em;
+}
+
+.contact {
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+
+.connect {
+	display: inline-block;
 }
