@@ -24,6 +24,7 @@ h1 {
 	text-align: center;
 	font-size: 1.85em;
 	color: white;
+
 }
 
 header {
@@ -31,18 +32,37 @@ header {
 	color: white;
 }
 
-ol {
-	margin: 0em;
-	padding: 0em;
+ol li{
+	display: block;
+	float: left;
+	padding: 1em 0em;
+	width: 33.33333333%;
 }
 
+ol a {
+	text-decoration: none;
+	color: white;
+}
+
+ol {
+	list-style-type: none;
+	text-align: center;
+	padding: 0em;
+	width: 100%;
+	margin: 0em;
+	background-color: #2b221a;
+	position: fixed;
+}
+
+ol li:hover {
+	background-color: #705944;
+}
 
 .billboard {
 	padding: 6em 0em 1em 0em;
 	background-image: url("../images/billboard.jpg");
 	background-size: 100% auto;
 	background-position: center;
-	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.75));
 }
 
 h2 {
@@ -55,8 +75,9 @@ p {
 }
 
 figcap {
-	font-size: 1em;
+	font-size: 0.75em;
 	width: 90%;
+	font-style: italic;
 }
 
 .info {
@@ -67,19 +88,19 @@ figcap {
 
 .food {
 	background-color: #c9ac62;
-	padding: 1em 0.5em 14em 0.5em;
+	padding: 1em 0.5em 13em 0.5em;
 	text-align: center;
 }
 
 .drinks {
 	background-color: #8e735a;
-	padding: 1em 0.5em 14em 0.5em;
+	padding: 1em 0.5em 13em 0.5em;
 	text-align: center;
 }
 
 .stuff {
 	background-color: #4c8462;
-	padding: 1em 0.5em 14em 0.5em;
+	padding: 1em 0.5em 13em 0.5em;
 	text-align: center;
 }
 
@@ -91,6 +112,7 @@ figcap {
 
 .left img {
 	width: 90%;
+
 }
 
 .right {
