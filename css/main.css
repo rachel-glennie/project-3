@@ -30,10 +30,6 @@ h1 {
 
 header {
 	background-color: #2b221a;
-	background-image: url(".../images/logo.svg");
-	background-position: center;
-	background-size: 100% auto;
-	background-repeat: none;
 	color: white;
 }
 
