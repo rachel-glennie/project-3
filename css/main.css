@@ -62,8 +62,6 @@ ol li:hover {
 	padding: 40% 0em 1em 0em;
 	background-image: url("../images/billboard.jpg");
 	background-size: 100% auto;
-	background-repeat: none;
-	background-position: fixed;
 	color: white;
 }
 
