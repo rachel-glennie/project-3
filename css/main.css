@@ -33,6 +33,7 @@ header {
 	background-image: url(".../images/logo.svg");
 	background-position: center;
 	background-size: 100% auto;
+	background-repeat: none;
 	color: white;
 }
 
@@ -62,16 +63,21 @@ ol li:hover {
 }
 
 .billboard {
-	padding: 30% 0em 1em 0em;
+	padding: 40% 0em 1em 0em;
 	background-image: url("../images/billboard.jpg");
 	background-size: 100% auto;
+	background-repeat: none;
 	background-position: fixed;
 	color: white;
 }
 
-h2 {
+h2, h3{
 	margin:0em;
 	text-align: center;
+}
+
+h3 {
+	margin: 0.5em;
 }
 
 p {
@@ -138,11 +144,10 @@ figure {
 	display: inline-block;
 }
 
-
 footer {
 	background-color: #2b221a;
 	color: white;
-	padding: 1em 0.5em 10em 0.5em;
+	padding: 1em;
 }
 
 .contact {
@@ -151,6 +156,30 @@ footer {
 	display: inline-block;
 }
 
+.contact p {
+	font-size: 0.75em
+}
+
 .connect {
 	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.connect img {
+	width: 40%;
+	padding: 1em 0.5em;
+	text-align: center;
+	display: inline-block;
+}
+
+.back {
+	padding-top: 0.5em;
+}
+
+.back a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	clear: left;
 }
